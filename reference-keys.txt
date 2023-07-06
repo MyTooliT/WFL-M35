@@ -8,3 +8,6 @@ haupttüre-initialisieren
 werkzeuglader-türe-initialisieren
 werkzeuglader-initialisieren
 referenzpunkte-setzen
+überprüfen-der-initialisierung
+problembehandlung
+spannfutter-modus-schalter-blinkt
