@@ -8,48 +8,100 @@ Die folgenden Schritte zeigen die grundsätzliche Bedienung der CNC-Maschine WFL
 
 ## Einrichten der Maschine
 
-1. Hauptschalter einschalten
+### Einschalten
 
-   Der Schalter befindet sich auf der Rückseite der Maschine:
+Der Hauptschalter befindet sich auf der Rückseite der Maschine:
 
    <img src="Pictures/Hauptschalter.webp" alt="Hauptschalter" width="300"/>
 
-2. Warten bis die Maschine hochfährt
+### Startup Abwarten
 
-   Dieser Vorgang dauert üblicherweise ein paar Minuten. Im Bedien-Terminal sollte keine Fortschrittsanzeige mehr zu sehen sein.
+Warten bis die Maschine hochfährt
 
-3. Darauf achten, dass der „Notaus“-Schalter deaktiviert ist
+Dieser Vorgang dauert üblicherweise ein paar Minuten. Im Bedien-Terminal sollte keine Fortschrittsanzeige mehr zu sehen sein.
 
-   <img src="Pictures/Notaus.webp" alt="Notaus" width="300"/>
+### Notaus Deaktivieren
 
-   Der Schalter sollte „heraus-gedreht“/„gezogen“ werden, falls das nicht der Fall ist.
+Darauf achten, dass der „Notaus“-Schalter deaktiviert ist
 
-4. Bei der Initialisierung kann es nicht schaden
+<img src="Pictures/Notaus.webp" alt="Notaus" width="300"/>
 
-   - den grünen <kbd>Power</kbd>-Button
-   - und danach <kbd>Reset</kbd> zu drücken.
+Der Schalter sollte „heraus-gedreht“/„gezogen“ werden, falls das nicht der Fall ist.
 
-   Diese Schalter befinden sich rechts unter dem „Notaus“:
+### Reset/Power
+
+Bei der Initialisierung kann es nicht schaden
+
+- den grünen <kbd>Power</kbd>-Button
+- und danach <kbd>Reset</kbd> zu drücken.
+
+Diese Schalter befinden sich rechts unter dem „Notaus“:
 
    <img src="Pictures/Power-Reset.webp" alt="Power-Reset" width="300"/>
 
-5. Die Haupt-Türe muss am Anfang geöffnet und geschlossen werden
+### Haupttüre Initialisieren
 
-   Dazu muss man die „Zweihand-Taster“ betätigen und dann den Schiebeschalter für die Tür:
+Die Haupt-Türe muss am Anfang geöffnet und geschlossen werden
+
+Dazu muss man die „Zweihand-Taster“ betätigen und dann den Schiebeschalter für die Tür:
 
    <img src="Pictures/Haupttuere-Schalter.webp" alt="Schalter Haupttüre" width="300"/>
 
-   1. nach links bewegen um die Tür zu öffnen und dann
-   2. nach rechts bewegen um die Tür zu schließen.
+1.  nach links bewegen um die Tür zu öffnen und dann
+2.  nach rechts bewegen um die Tür zu schließen.
 
-6. Die Türe vom Werkzeuglader muss händisch geschlossen und geöffnet werden:
+### Werkzeuglader-Türe Initialisieren
 
-   <img src="Pictures/Werkzeuglader.webp" alt="Werkzeuglader" width="500"/>
+Die Türe vom Werkzeuglader muss händisch geschlossen und geöffnet werden. Danach sollten die beiden gelben Schalter unter dem Werkzeuglader **nicht** mehr leuchten.
 
-   Danach sollten die beiden gelben Schalter unter dem Werkzeuglader **nicht** mehr leuchten.
+<img src="Pictures/Werkzeuglader.webp" alt="Werkzeuglader" width="500"/>
 
-7. Um den Werkzeuglader zu initialisieren sollte als erstes der Button
+### Werkzeuglader Initialisieren
 
-   <kbd>Wkz-Lader Reset</kbd> und dann <kbd>Wkz-Lader Start</kbd> drücken:
+Um den Werkzeuglader zu initialisieren sollte als erstes der Button
 
-   <img src="Pictures/Bedientafel-Mitte-Wkz.webp" alt="Bedientafel Mitte Wkz-Buttons" width="300"/>
+<kbd>Wkz-Lader Reset</kbd> und dann <kbd>Wkz-Lader Start</kbd> drücken:
+
+<img src="Pictures/Bedientafel-Mitte-Wkz.webp" alt="Bedientafel Mitte Wkz-Buttons" width="300"/>
+
+### Referenzpunkte setzen
+
+![Referenzpunkte](Pictures/Referenzpunkte.webp)
+
+Zum Setzen der Referenzpunkte muss man die jeweilige Achse für den Punkt aktivieren und dann mittels Betätigung des Buttons <kbd>+</kbd> oder <kbd>-</kbd> zum nächsten Referenzpunkt fahren. In der unteren Beispiel-Grafik ist die Achse B1 aktiviert:
+
+<img src="Pictures/Bedientafel-Rechts-B1.webp" alt="Bedientafel Rechts B1" width="300"/>
+
+Bei den doppelt belegten Tasten z.B. <kbd>Q1/X1</kbd> oder <kbd>Q2/Y1</kbd> sollte darauf geachtet werden, dass die Taste <kbd>C/Q</kbd> **nicht aktiviert ist** (Licht ausgeschalten). Ansonsten wird bei den erwähnten Beispiel-Tasten `Q1` beziehungsweise `Q2` aktiviert obwohl man eigentlich die Achse `X1` beziehungsweise `X2` auswählen wollte.
+
+**Beim Drücken der Tasten <kbd>+</kbd> oder <kbd>-</kbd> sollte beachtet werden, dass der Weg in die jeweilige Richtung frei ist!** Im Zweifelsfall sollte jeweils die Richtung, mittels <kbd>+</kbd>/<kbd>-</kbd> gewählt werden, bei dem mehr Platz zum Fahren frei ist. Die Orientierung der Achsen ist dabei auf dem Schlitten zu sehen:
+
+<img src="Pictures/Spindel-Y1.webp" alt="Spindel Y1" width="600"/>
+
+Im obigen Bild ist die Fahrt in Richtung Y1 praktisch nur mittels <kbd>-</kbd> möglich ist da der Schlitten ansonsten in den Gummipuffer fährt.
+
+<img src="Pictures/Y1.webp" alt="Beschriftung Y1" width="600"/>
+
+Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am Display angezeigt wird:
+
+1. Referenzpunkt für Achse **X1** anfahren:
+
+   1. Button <kbd>Q1/X1</kbd> drücken
+   2. Button <kbd>C/Q</kbd> sollte nicht aktiviert sein
+   3. <kbd>+</kbd> oder <kbd>-</kbd> drücken, je nachdem in welche Richtung mehr Platz frei ist
+
+2. Referenzpunkt für Achse **Y1** anfahren (hier ist ein Anfahren mittels **<kbd>+</kbd> meist nicht möglich**):
+
+   1. Button <kbd>Q2/Y1</kbd> drücken
+   2. Button <kbd>C/Q</kbd> sollte nicht aktiviert sein
+   3. <kbd>+</kbd> oder **<kbd>-</kbd>** drücken, je nachdem in welche Richtung mehr Platz frei ist
+
+3. Referenzpunkt für Achse **Z1** anfahren
+
+   1. Button <kbd>Z1</kbd> drücken
+   2. <kbd>+</kbd> oder <kbd>-</kbd> drücken, je nachdem in welche Richtung mehr Platz frei ist
+
+4. Referenzpunkt für Achse **B1** anfahren
+
+   1. Button <kbd>B1</kbd> drücken
+   2. Button <kbd>+</kbd> oder <kbd>-</kbd> drücken; Auch beim Drücken der Taste <kbd>+</kbd> sollte sich hier der Kopf in die Richtung <kbd>-</kbd> bewegen
