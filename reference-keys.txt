@@ -1,0 +1,10 @@
+einführung-wfl-m35
+einrichten-der-maschine
+einschalten
+startup-abwarten
+notaus-deaktivieren
+resetpower
+haupttüre-initialisieren
+werkzeuglader-türe-initialisieren
+werkzeuglader-initialisieren
+referenzpunkte-setzen

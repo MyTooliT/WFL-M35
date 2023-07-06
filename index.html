@@ -70,7 +70,20 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li class="chapter" data-level="1" data-path=""><a href="#einführung-wfl-m35"><i class="fa fa-check"></i><b>1</b> Einführung WFL M35</a></li>
+<li class="chapter" data-level="1" data-path=""><a href="#einführung-wfl-m35"><i class="fa fa-check"></i><b>1</b> Einführung WFL M35</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path=""><a href="#einrichten-der-maschine"><i class="fa fa-check"></i><b>1.1</b> Einrichten der Maschine</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path=""><a href="#einschalten"><i class="fa fa-check"></i><b>1.1.1</b> Einschalten</a></li>
+<li class="chapter" data-level="1.1.2" data-path=""><a href="#startup-abwarten"><i class="fa fa-check"></i><b>1.1.2</b> Startup Abwarten</a></li>
+<li class="chapter" data-level="1.1.3" data-path=""><a href="#notaus-deaktivieren"><i class="fa fa-check"></i><b>1.1.3</b> Notaus Deaktivieren</a></li>
+<li class="chapter" data-level="1.1.4" data-path=""><a href="#resetpower"><i class="fa fa-check"></i><b>1.1.4</b> Reset/Power</a></li>
+<li class="chapter" data-level="1.1.5" data-path=""><a href="#haupttüre-initialisieren"><i class="fa fa-check"></i><b>1.1.5</b> Haupttüre Initialisieren</a></li>
+<li class="chapter" data-level="1.1.6" data-path=""><a href="#werkzeuglader-türe-initialisieren"><i class="fa fa-check"></i><b>1.1.6</b> Werkzeuglader-Türe Initialisieren</a></li>
+<li class="chapter" data-level="1.1.7" data-path=""><a href="#werkzeuglader-initialisieren"><i class="fa fa-check"></i><b>1.1.7</b> Werkzeuglader Initialisieren</a></li>
+<li class="chapter" data-level="1.1.8" data-path=""><a href="#referenzpunkte-setzen"><i class="fa fa-check"></i><b>1.1.8</b> Referenzpunkte setzen</a></li>
+</ul></li>
+</ul></li>
 </ul>
 
       </nav>
@@ -92,7 +105,98 @@
 <!--bookdown:title:start-->
 <div id="einführung-wfl-m35" class="section level1 hasAnchor" number="1">
 <h1><span class="header-section-number">1</span> Einführung WFL M35<a href="#einführung-wfl-m35" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Die folgenden Schritte zeigen die grundsätzliche Bedienung der CNC-Maschine WFL M35 im <a href="http://www.ift.at/das-institut/standorte/">TEC-Lab</a>:</p>
+<p><a href="https://www.wfl.at/en/machines/millturn/m30-m30-g-m35-m35-g"><img src="Pictures/WFL-M35.webp" alt="WFL M35" /></a></p>
+<blockquote>
+<p><strong>Anmerkung</strong>: Alle Angaben ohne Gewähr!</p>
+</blockquote>
+<div id="einrichten-der-maschine" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Einrichten der Maschine<a href="#einrichten-der-maschine" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="einschalten" class="section level3 hasAnchor" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> Einschalten<a href="#einschalten" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Der Hauptschalter befindet sich auf der Rückseite der Maschine:</p>
+<p><img src="Pictures/Hauptschalter.webp" alt="Hauptschalter" width="300"/></p>
+</div>
+<div id="startup-abwarten" class="section level3 hasAnchor" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> Startup Abwarten<a href="#startup-abwarten" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Warten bis die Maschine hochfährt</p>
+<p>Dieser Vorgang dauert üblicherweise ein paar Minuten. Im Bedien-Terminal sollte keine Fortschrittsanzeige mehr zu sehen sein.</p>
+</div>
+<div id="notaus-deaktivieren" class="section level3 hasAnchor" number="1.1.3">
+<h3><span class="header-section-number">1.1.3</span> Notaus Deaktivieren<a href="#notaus-deaktivieren" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Darauf achten, dass der „Notaus“-Schalter deaktiviert ist</p>
+<p><img src="Pictures/Notaus.webp" alt="Notaus" width="300"/></p>
+<p>Der Schalter sollte „heraus-gedreht“/„gezogen“ werden, falls das nicht der Fall ist.</p>
+</div>
+<div id="resetpower" class="section level3 hasAnchor" number="1.1.4">
+<h3><span class="header-section-number">1.1.4</span> Reset/Power<a href="#resetpower" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Bei der Initialisierung kann es nicht schaden</p>
+<ul>
+<li>den grünen <kbd>Power</kbd>-Button</li>
+<li>und danach <kbd>Reset</kbd> zu drücken.</li>
+</ul>
+<p>Diese Schalter befinden sich rechts unter dem „Notaus“:</p>
+<p><img src="Pictures/Power-Reset.webp" alt="Power-Reset" width="300"/></p>
+</div>
+<div id="haupttüre-initialisieren" class="section level3 hasAnchor" number="1.1.5">
+<h3><span class="header-section-number">1.1.5</span> Haupttüre Initialisieren<a href="#haupttüre-initialisieren" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Die Haupt-Türe muss am Anfang geöffnet und geschlossen werden</p>
+<p>Dazu muss man die „Zweihand-Taster“ betätigen und dann den Schiebeschalter für die Tür:</p>
+<p><img src="Pictures/Haupttuere-Schalter.webp" alt="Schalter Haupttüre" width="300"/></p>
+<ol style="list-style-type: decimal">
+<li>nach links bewegen um die Tür zu öffnen und dann</li>
+<li>nach rechts bewegen um die Tür zu schließen.</li>
+</ol>
+</div>
+<div id="werkzeuglader-türe-initialisieren" class="section level3 hasAnchor" number="1.1.6">
+<h3><span class="header-section-number">1.1.6</span> Werkzeuglader-Türe Initialisieren<a href="#werkzeuglader-türe-initialisieren" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Die Türe vom Werkzeuglader muss händisch geschlossen und geöffnet werden. Danach sollten die beiden gelben Schalter unter dem Werkzeuglader <strong>nicht</strong> mehr leuchten.</p>
+<p><img src="Pictures/Werkzeuglader.webp" alt="Werkzeuglader" width="500"/></p>
+</div>
+<div id="werkzeuglader-initialisieren" class="section level3 hasAnchor" number="1.1.7">
+<h3><span class="header-section-number">1.1.7</span> Werkzeuglader Initialisieren<a href="#werkzeuglader-initialisieren" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Um den Werkzeuglader zu initialisieren sollte als erstes der Button</p>
+<p><kbd>Wkz-Lader Reset</kbd> und dann <kbd>Wkz-Lader Start</kbd> drücken:</p>
+<p><img src="Pictures/Bedientafel-Mitte-Wkz.webp" alt="Bedientafel Mitte Wkz-Buttons" width="300"/></p>
+</div>
+<div id="referenzpunkte-setzen" class="section level3 hasAnchor" number="1.1.8">
+<h3><span class="header-section-number">1.1.8</span> Referenzpunkte setzen<a href="#referenzpunkte-setzen" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="Pictures/Referenzpunkte.webp" alt="Referenzpunkte" /></p>
+<p>Zum Setzen der Referenzpunkte muss man die jeweilige Achse für den Punkt aktivieren und dann mittels Betätigung des Buttons <kbd>+</kbd> oder <kbd>-</kbd> zum nächsten Referenzpunkt fahren. In der unteren Beispiel-Grafik ist die Achse B1 aktiviert:</p>
+<p><img src="Pictures/Bedientafel-Rechts-B1.webp" alt="Bedientafel Rechts B1" width="300"/></p>
+<p>Bei den doppelt belegten Tasten z.B. <kbd>Q1/X1</kbd> oder <kbd>Q2/Y1</kbd> sollte darauf geachtet werden, dass die Taste <kbd>C/Q</kbd> <strong>nicht aktiviert ist</strong> (Licht ausgeschalten). Ansonsten wird bei den erwähnten Beispiel-Tasten <code>Q1</code> beziehungsweise <code>Q2</code> aktiviert obwohl man eigentlich die Achse <code>X1</code> beziehungsweise <code>X2</code> auswählen wollte.</p>
+<p><strong>Beim Drücken der Tasten <kbd>+</kbd> oder <kbd>-</kbd> sollte beachtet werden, dass der Weg in die jeweilige Richtung frei ist!</strong> Im Zweifelsfall sollte jeweils die Richtung, mittels <kbd>+</kbd>/<kbd>-</kbd> gewählt werden, bei dem mehr Platz zum Fahren frei ist. Die Orientierung der Achsen ist dabei auf dem Schlitten zu sehen:</p>
+<p><img src="Pictures/Spindel-Y1.webp" alt="Spindel Y1" width="600"/></p>
+<p>Im obigen Bild ist die Fahrt in Richtung Y1 praktisch nur mittels <kbd>-</kbd> möglich ist da der Schlitten ansonsten in den Gummipuffer fährt.</p>
+<p><img src="Pictures/Y1.webp" alt="Beschriftung Y1" width="600"/></p>
+<p>Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am Display angezeigt wird:</p>
+<ol style="list-style-type: decimal">
+<li><p>Referenzpunkt für Achse <strong>X1</strong> anfahren:</p>
+<ol style="list-style-type: decimal">
+<li>Button <kbd>Q1/X1</kbd> drücken</li>
+<li>Button <kbd>C/Q</kbd> sollte nicht aktiviert sein</li>
+<li><kbd>+</kbd> oder <kbd>-</kbd> drücken, je nachdem in welche Richtung mehr Platz frei ist</li>
+</ol></li>
+<li><p>Referenzpunkt für Achse <strong>Y1</strong> anfahren (hier ist ein Anfahren mittels <strong><kbd>+</kbd> meist nicht möglich</strong>):</p>
+<ol style="list-style-type: decimal">
+<li>Button <kbd>Q2/Y1</kbd> drücken</li>
+<li>Button <kbd>C/Q</kbd> sollte nicht aktiviert sein</li>
+<li><kbd>+</kbd> oder <strong><kbd>-</kbd></strong> drücken, je nachdem in welche Richtung mehr Platz frei ist</li>
+</ol></li>
+<li><p>Referenzpunkt für Achse <strong>Z1</strong> anfahren</p>
+<ol style="list-style-type: decimal">
+<li>Button <kbd>Z1</kbd> drücken</li>
+<li><kbd>+</kbd> oder <kbd>-</kbd> drücken, je nachdem in welche Richtung mehr Platz frei ist</li>
+</ol></li>
+<li><p>Referenzpunkt für Achse <strong>B1</strong> anfahren</p>
+<ol style="list-style-type: decimal">
+<li>Button <kbd>B1</kbd> drücken</li>
+<li>Button <kbd>+</kbd> oder <kbd>-</kbd> drücken; Auch beim Drücken der Taste <kbd>+</kbd> sollte sich hier der Kopf in die Richtung <kbd>-</kbd> bewegen</li>
+</ol></li>
+</ol>
 
+</div>
+</div>
 </div>
             </section>
 
@@ -138,8 +242,10 @@ gitbook.start({
 "options": null
 },
 "toc": {
-"collapse": "subsection"
-}
+"collapse": "none",
+"scroll_highlight": true
+},
+"toc_depth": 3
 });
 });
 </script>
