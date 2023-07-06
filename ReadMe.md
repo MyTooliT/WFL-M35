@@ -105,3 +105,11 @@ Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am
 
    1. Button <kbd>B1</kbd> drücken
    2. Button <kbd>+</kbd> oder <kbd>-</kbd> drücken; Auch beim Drücken der Taste <kbd>+</kbd> sollte sich hier der Kopf in die Richtung <kbd>-</kbd> bewegen
+
+### Überprüfen der Initialisierung
+
+- Bei der Bedientafel sollten keine Leuchten blinken
+- Die beiden gelben Leuchten unter der Werkzeuglader-Türe sollten nicht leuchten
+- Die Alarmliste sollte keine Meldungen enthalten:
+
+  <img src="Pictures/Alarmliste.webp" alt="Icon Alarmliste" width="600"/>
