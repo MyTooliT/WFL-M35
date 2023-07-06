@@ -39,6 +39,8 @@ Diese Schalter befinden sich rechts unter dem „Notaus“:
 
    <img src="Pictures/Power-Reset.webp" alt="Power-Reset" width="300"/>
 
+<a name=readme:section:hauptuere-initialisieren></a>
+
 ### Haupttüre Initialisieren
 
 Die Haupt-Türe muss am Anfang geöffnet und geschlossen werden
@@ -113,3 +115,26 @@ Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am
 - Die Alarmliste sollte keine Meldungen enthalten:
 
   <img src="Pictures/Alarmliste.webp" alt="Icon Alarmliste" width="600"/>
+
+## Problembehandlung
+
+### Spannfutter-Modus-Schalter Blinkt
+
+<img src="Pictures/Spannfutter-Modus-Schalter.webp" alt="Spannfutter-Modus-Schalter" width="500"/>
+
+Auch wenn man kein Werkstück einspannen will (Schalterstellung 0) muss der Alarm trotzdem deaktiviert werden. Dazu kann man folgende Schritte verwenden:
+
+1. [Haupt-Türe öffnen](#readme:section:hauptuere-initialisieren)
+2. Spannfutter-Modus-Schalter auf „Außen-Spannen“ stellen:
+
+   <img src="Pictures/Aussenspannen.webp" alt="Spannfutter-Modus-Schalter Modus Außen-Spannen" width="500"/>
+
+3. Fußschalter mit Spannfuttersymbol benützen um die Werkstückaufnahme ganz zu öffnen
+
+   <img src="Pictures/Spannfutter-Fußschalter.webp" alt="Spannfutter-Fußschalter" width="600"/>
+
+   Hierbei ist zu beachten, dass die zwei Schalter links und rechts eine **Doppelfunktion** besitzen. Während ein leichtes Drücken die Werkstückaufnahme öffnet oder schließt, sorgt ein fester Druck dafür, dass der „Notaus“ aktiviert wird. Sollte versehentlich der Notaus aktiviert worden sein, kann man diesen mittels der dunkelgrünen Schalter am vorderen Ende des Fußschalters deaktivieren:
+
+   <img src="Pictures/Spannfutter-Fußschalter-Notaus-Deaktivieren.webp" alt="Schalter am Spannfutter-Fußschalter um Notaus zu Deaktivieren" width="600"/>
+
+4. Spannfutter-Modus-Schalter auf „0“ stellen
