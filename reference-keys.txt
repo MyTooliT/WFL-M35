@@ -11,3 +11,6 @@ referenzpunkte-setzen
 überprüfen-der-initialisierung
 problembehandlung
 spannfutter-modus-schalter-blinkt
+werkzeug-aufrüsten
+programm-laden
+zusätzliche-information
