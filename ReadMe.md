@@ -233,3 +233,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
    <img src="Pictures/Cycle-Start.webp" alt="Button CYCLE START" width="600"/>
 
    um die Programmausführung zu beginnen
+
+## Zusätzliche Information
+
+Die Maschine wird von [Gerhard Wiesinger](https://tiss.tuwien.ac.at/person/43398.html) betreut. Um sich zu informieren ob die Maschine für eine bestimmten Zeitraum zur Verfügung steht kann man sich bei ihm (bevorzugt per Telefon) melden.
