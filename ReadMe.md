@@ -1,6 +1,6 @@
 # Einführung WFL M35
 
-Die folgenden Schritte zeigen die grundsätzliche Bedienung der CNC-Maschine WFL M35 im [TEC-Lab](http://www.ift.at/das-institut/standorte/):
+Die folgenden Beschreibung zeigt oberflächlich die grundsätzliche Bedienung der CNC-Maschine WFL M35 im [TEC-Lab](http://www.ift.at/das-institut/standorte/).
 
 [![WFL M35](Pictures/WFL-M35.webp)](https://www.wfl.at/en/machines/millturn/m30-m30-g-m35-m35-g)
 
@@ -45,7 +45,7 @@ Diese Schalter befinden sich rechts unter dem „Notaus“:
 
 Die Haupt-Türe muss am Anfang geöffnet und geschlossen werden
 
-Dazu muss man die „Zweihand-Taster“ betätigen und dann den Schiebeschalter für die Tür:
+Dazu muss man den „Zweihand-Taster“ betätigen und dann den Schiebeschalter für die Tür:
 
    <img src="Pictures/Haupttuere-Schalter.webp" alt="Schalter Haupttüre" width="300"/>
 
@@ -60,9 +60,7 @@ Die Türe vom Werkzeuglader muss händisch geschlossen und geöffnet werden. Dan
 
 ### Werkzeuglader Initialisieren
 
-Um den Werkzeuglader zu initialisieren sollte als erstes der Button
-
-<kbd>Wkz-Lader Reset</kbd> und dann <kbd>Wkz-Lader Start</kbd> drücken:
+Um den Werkzeuglader zu initialisieren sollte als erstes der Button <kbd>Wkz-Lader Reset</kbd> und dann <kbd>Wkz-Lader Start</kbd> gedrückt werden:
 
 <img src="Pictures/Bedientafel-Mitte-Wkz.webp" alt="Bedientafel Mitte Wkz-Buttons" width="300"/>
 
@@ -80,7 +78,7 @@ Bei den doppelt belegten Tasten z.B. <kbd>Q1/X1</kbd> oder <kbd>Q2/Y1</kbd> soll
 
 <img src="Pictures/Spindel-Y1.webp" alt="Spindel Y1" width="600"/>
 
-Im obigen Bild ist die Fahrt in Richtung Y1 praktisch nur mittels <kbd>-</kbd> möglich ist da der Schlitten ansonsten in den Gummipuffer fährt.
+Im obigen Bild ist die Fahrt in Richtung Y1 praktisch nur mittels <kbd>-</kbd> möglich, da der Schlitten ansonsten in den Gummipuffer fährt.
 
 <img src="Pictures/Y1.webp" alt="Beschriftung Y1" width="600"/>
 
@@ -122,7 +120,7 @@ Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am
 
 <img src="Pictures/Spannfutter-Modus-Schalter.webp" alt="Spannfutter-Modus-Schalter" width="500"/>
 
-Auch wenn man kein Werkstück einspannen will (Schalterstellung 0) muss der Alarm trotzdem deaktiviert werden. Dazu kann man folgende Schritte verwenden:
+Auch wenn man kein Werkstück einspannen will (Schalterstellung 0) muss der Alarm trotzdem deaktiviert werden. Dazu kann man folgende Schritte der Reihe nach abarbeiten:
 
 1. [Haupt-Türe öffnen](#readme:section:hauptuere-initialisieren)
 2. Spannfutter-Modus-Schalter auf „Außen-Spannen“ stellen:
@@ -175,7 +173,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
    Die Eingabe kann man mittels des Input-Buttons bestätigen
 
-5. Auf „Aufrüsten“ klicken. Das Werkzeugmagazin sollte jetzt automatisch auf die korrekte Stelle für die gewählte Werkzeugnummer fahren
+5. Auf „Aufrüsten“ klicken; Das Werkzeugmagazin sollte jetzt automatisch auf die korrekte Stelle für die gewählte Werkzeugnummer fahren
 6. Magazintür öffnen
 7. Werkzeug einspannen
 
@@ -226,7 +224,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
    <img src="Pictures/Vorschub.webp" alt="Einstellung für Vorschub" width="600"/>
 
-   Der Drehschalter sollte dabei bei der Programmausführung immer im Auge behalten werden, damit die aktuelle Programmausführung – mittels Vorschub 0 – schnell abgebrochen werden kann.
+   Der Drehschalter sollte bei der Programmausführung immer im Auge behalten werden, damit die aktuelle Programmausführung – mittels Vorschub 0 – schnell abgebrochen werden kann.
 
 6. Den Button <kbd>CYCLE START</kbd> drücken:
 
