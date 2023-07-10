@@ -138,3 +138,55 @@ Auch wenn man kein Werkstück einspannen will (Schalterstellung 0) muss der Alar
    <img src="Pictures/Spannfutter-Fußschalter-Notaus-Deaktivieren.webp" alt="Schalter am Spannfutter-Fußschalter um Notaus zu Deaktivieren" width="600"/>
 
 4. Spannfutter-Modus-Schalter auf „0“ stellen
+
+## Werkzeug Aufrüsten
+
+Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) kann man folgende Schritte verwenden:
+
+1. Einen leeren Platz im Magazin suchen; Die Werkzeug-Nummer ist am Rand des Trommel-Magazins zu sehen
+
+   <img src="Pictures/Werkzeugnummern.webp" alt="Werkzeugnummern Trommelmagazin" width="600"/>
+
+2. Um das Magazin zu drehen kann man den unten gezeigten Schalter verwenden:
+
+   <img src="Pictures/Drehschalter-Trommelmagazin.webp" alt="Drehschalter vom Trommelmagazin" width="600"/>
+
+3. In der Magazinliste:
+
+   <img src="Pictures/Werkzeugliste.webp" alt="Liste der verwalteten Werkzeuge" width="600"/>
+
+   <img src="Pictures/Trommelmagazin.webp" alt="Trommelmagazin" width="600"/>
+
+   auf den freien Eintrag für die Werkzeugnummer klicken:
+
+   <img src="Pictures/Werkzeugliste-Freier-Eintrag.webp" alt="Freier Eintrag von Werkzeugliste" width="600"/>
+
+   und ein neues Werkzeug einrichten oder eines aus dem Archiv importieren.
+
+4. Bei den Daten vom Werkzeug kann z.B. folgende Auswahl getroffen werden (solange man das Werkzeug nicht für einen Eingriff verwendet):
+
+   - **Duplonummer** muss immer 1 sein
+   - **Schnittstelle:** Normal
+   - **Name:** Beliebig (ein markanter Name hilft später beim Holen der Daten aus Archiv)
+   - **Längenkategorie:** 250 mm (hier darauf achten, dass das Tool nicht länger als 250 mm ist, besonders wenn man es in die rechte Trommel mit geringerer Breite gibt)
+   - **Durchmesserkategorie:** klein
+   - **Werkzeugtyp:** Bohr oder Fräßwerkzeug
+   - **Ohne Geometrie** (kein Crash-Schutz!)
+
+   Die Eingabe kann man mittels des Input-Buttons bestätigen
+
+5. Auf „Aufrüsten“ klicken. Das Werkzeugmagazin sollte jetzt automatisch auf die korrekte Stelle für die gewählte Werkzeugnummer fahren
+6. Magazintür öffnen
+7. Werkzeug einspannen
+
+   Zum Entfernen beziehungsweise Spannen des Stifts der das Werkzeug festhält bitte folgenden Button drücken:
+
+   <img src="Pictures/Button-Stift-Magazin.webp" alt="Button für Stift des Trommelmagazins" width="600"/>
+
+   Beim Einspannen ist darauf zu achten, dass absolut **kein Spalt** entsteht.
+
+   <img src="Pictures/Werkzeugmagazin-Spalt.webp" alt="Spalt beim Eingespannten Werkzeug" width="600"/>
+
+   <img src="Pictures/Werkzeugmagazin-Kein-Spalt.webp" alt="Spalt beim Eingespannten Werkzeug" width="600"/>
+
+8. Die Magazintür schließen
