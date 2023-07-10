@@ -1,0 +1,13 @@
+MCHOME       ; Zu Homepoint fahren
+
+FOR GD[1]=1 to 1              ; Einfache Loop (1 am Ende ersetzen fuer mehrere Durchgaenge)
+TLCH1("Rene_Test_1",0,,1,,,,) ; Werkzeug Rene_Test_1 einwechseln
+M0                            ; Pause
+TLCH1("D4_EG",0,,1,,,,)       ; Werkzeug D4_EG einwechseln
+M0
+ENDFOR
+
+TLCH1          ; Werkzeug auswechseln
+TLPREP1        ; Werkzeug zurueck ins Magazin
+MCHOME
+M30

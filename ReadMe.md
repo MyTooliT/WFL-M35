@@ -190,3 +190,46 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
    <img src="Pictures/Werkzeugmagazin-Kein-Spalt.webp" alt="Spalt beim Eingespannten Werkzeug" width="600"/>
 
 8. Die Magazintür schließen
+
+## Programm Laden
+
+1. Auf das Programm-Icon klicken:
+
+   <img src="Pictures/Programme.webp" alt="Programme" width="600"/>
+
+2. [Programm](Source/SMART_TOOL_TEST1.MPF) wählen:
+
+   ```mpf
+   MCHOME       ; Zu Homepoint fahren
+
+   FOR GD[1]=1 to 1              ; Einfache Loop (1 am Ende ersetzen fuer mehrere Durchgaenge)
+   TLCH1("Rene_Test_1",0,,1,,,,) ; Werkzeug Rene_Test_1 einwechseln
+   M0                            ; Pause
+   TLCH1("D4_EG",0,,1,,,,)       ; Werkzeug D4_EG einwechseln
+   M0
+   ENDFOR
+
+   TLCH1          ; Werkzeug auswechseln
+   TLPREP1        ; Werkzeug zurueck ins Magazin
+   MCHOME
+   M30
+   ```
+
+3. Sicherheitshalber die erste Zeile des Programms markieren, damit Programmausführung nicht mitten im Programmcode startet
+4. Den Button <kbd>G00</kbd> aktivieren:
+
+   <img src="Pictures/G00.webp" alt="Button G00" width="600"/>
+
+   damit sich die Ausführung des Programms verlangsamt.
+
+5. Darauf achten, dass der Vorschub (auf einem geringem Level) aktiviert ist:
+
+   <img src="Pictures/Vorschub.webp" alt="Einstellung für Vorschub" width="600"/>
+
+   Der Drehschalter sollte dabei bei der Programmausführung immer im Auge behalten werden, damit die aktuelle Programmausführung – mittels Vorschub 0 – schnell abgebrochen werden kann.
+
+6. Den Button <kbd>CYCLE START</kbd> drücken:
+
+   <img src="Pictures/Cycle-Start.webp" alt="Button CYCLE START" width="600"/>
+
+   um die Programmausführung zu beginnen
