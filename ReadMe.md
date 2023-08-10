@@ -84,24 +84,24 @@ Im obigen Bild ist die Fahrt in Richtung Y1 praktisch nur mittels <kbd>-</kbd> m
 
 Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am Display angezeigt wird:
 
-1. Referenzpunkt für Achse **X1** anfahren:
+1. Referenzpunkt für Achse **X1** (Oben/Unten) anfahren:
 
    1. Button <kbd>Q1/X1</kbd> drücken
    2. Button <kbd>C/Q</kbd> sollte nicht aktiviert sein
    3. <kbd>+</kbd> oder <kbd>-</kbd> drücken, je nachdem in welche Richtung mehr Platz frei ist
 
-2. Referenzpunkt für Achse **Y1** anfahren (hier ist ein Anfahren mittels **<kbd>+</kbd> meist nicht möglich**):
+2. Referenzpunkt für Achse **Y1** (Schräg „oben vorne“/„unten hinten“) anfahren (hier ist ein Anfahren mittels **<kbd>+</kbd> meist nicht möglich**):
 
    1. Button <kbd>Q2/Y1</kbd> drücken
    2. Button <kbd>C/Q</kbd> sollte nicht aktiviert sein
    3. <kbd>+</kbd> oder **<kbd>-</kbd>** drücken, je nachdem in welche Richtung mehr Platz frei ist
 
-3. Referenzpunkt für Achse **Z1** anfahren
+3. Referenzpunkt für Achse **Z1** (links/rechts) anfahren
 
    1. Button <kbd>Z1</kbd> drücken
    2. <kbd>+</kbd> oder <kbd>-</kbd> drücken, je nachdem in welche Richtung mehr Platz frei ist
 
-4. Referenzpunkt für Achse **B1** anfahren
+4. Referenzpunkt für Achse **B1** (Schwenk links/rechts) anfahren
 
    1. Button <kbd>B1</kbd> drücken
    2. Button <kbd>+</kbd> oder <kbd>-</kbd> drücken; Auch beim Drücken der Taste <kbd>+</kbd> sollte sich hier der Kopf in die Richtung <kbd>-</kbd> bewegen
@@ -159,7 +159,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
    <img src="Pictures/Werkzeugliste-Freier-Eintrag.webp" alt="Freier Eintrag von Werkzeugliste" width="600"/>
 
-   und ein neues Werkzeug einrichten oder eines aus dem Archiv importieren.
+   und den Button <kbd>Aufrüsten</kbd> drücken um ein neues Werkzeug einzurichten oder um Eines aus dem Archiv zu importieren.
 
 4. Bei den Daten vom Werkzeug kann z.B. folgende Auswahl getroffen werden (solange man das Werkzeug nicht für einen Eingriff verwendet):
 
@@ -169,9 +169,13 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
    - **Längenkategorie:** 250 mm (hier darauf achten, dass das Tool nicht länger als 250 mm ist, besonders wenn man es in die rechte Trommel mit geringerer Breite gibt)
    - **Durchmesserkategorie:** klein
    - **Werkzeugtyp:** Bohr oder Fräßwerkzeug
-   - **Ohne Geometrie** (kein Crash-Schutz!)
+   - **Durchmesser** und **Länge** des Werkzeuges (ungefähr) eingeben
 
-   Die Eingabe kann man mittels des Input-Buttons bestätigen
+   Die Eingabe sollte man dann mittels des <kbd>Input<kbd>-Buttons bestätigen
+
+   <img src="Pictures/Input.webp" alt="Input Button" width="500"/>
+
+   Danach noch **Ohne Geometrie** (kein Crash-Schutz!) auswählen
 
 5. Auf „Aufrüsten“ klicken; Das Werkzeugmagazin sollte jetzt automatisch auf die korrekte Stelle für die gewählte Werkzeugnummer fahren
 6. Magazintür öffnen
