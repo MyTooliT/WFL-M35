@@ -171,7 +171,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
    - **Werkzeugtyp:** Bohr oder Fräßwerkzeug
    - **Durchmesser** und **Länge** des Werkzeuges (ungefähr) eingeben
 
-   Die Eingabe sollte man dann mittels des <kbd>Input<kbd>-Buttons bestätigen
+   Die Eingabe sollte man dann mittels des <kbd>Input</kbd>-Buttons bestätigen
 
    <img src="Pictures/Input.webp" alt="Input Button" width="500"/>
 
