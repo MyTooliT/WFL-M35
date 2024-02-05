@@ -39,9 +39,7 @@ Diese Schalter befinden sich rechts unter dem „Notaus“:
 
 ![Power-Reset](Pictures/Power-Reset.png){width=30%}
 
-<a name=readme:section:hauptuere-initialisieren></a>
-
-### Haupttüre Initialisieren
+### Haupttüre Initialisieren {#hauptuere-initialisieren}
 
 Die Haupt-Türe muss am Anfang geöffnet und geschlossen werden
 
@@ -122,7 +120,7 @@ Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am
 
 Auch wenn man kein Werkstück einspannen will (Schalterstellung 0) muss der Alarm trotzdem deaktiviert werden. Dazu kann man folgende Schritte der Reihe nach abarbeiten:
 
-1. [Haupt-Türe öffnen](#readme:section:hauptuere-initialisieren)
+1. [Haupt-Türe öffnen](#hauptuere-initialisieren)
 2. Spannfutter-Modus-Schalter auf „Außen-Spannen“ stellen:
 
    ![Spannfutter-Modus-Schalter Modus Außen-Spannen](Pictures/Aussenspannen.png){width=20%}
