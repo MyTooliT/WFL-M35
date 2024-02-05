@@ -2,7 +2,7 @@
 
 Die folgenden Beschreibung zeigt oberflächlich die grundsätzliche Bedienung der CNC-Maschine WFL M35 im [TEC-Lab](http://www.ift.at/das-institut/standorte/).
 
-[![WFL M35](Pictures/WFL-M35.webp)](https://www.wfl.at/en/machines/millturn/m30-m30-g-m35-m35-g)
+[![WFL M35](Pictures/WFL-M35.png)](https://www.wfl.at/en/machines/millturn/m30-m30-g-m35-m35-g)
 
 > **Anmerkung**: Alle Angaben ohne Gewähr!
 
@@ -12,7 +12,7 @@ Die folgenden Beschreibung zeigt oberflächlich die grundsätzliche Bedienung de
 
 Der Hauptschalter befindet sich auf der Rückseite der Maschine:
 
-   <img src="Pictures/Hauptschalter.webp" alt="Hauptschalter" width="300"/>
+![Hauptschalter](Pictures/Hauptschalter.png){width=30%}
 
 ### Startup Abwarten
 
@@ -24,7 +24,7 @@ Dieser Vorgang dauert üblicherweise ein paar Minuten. Im Bedien-Terminal sollte
 
 Darauf achten, dass der „Notaus“-Schalter deaktiviert ist
 
-<img src="Pictures/Notaus.webp" alt="Notaus" width="300"/>
+![Notaus](Pictures/Notaus.png){width=30%}
 
 Der Schalter sollte „heraus-gedreht“/„gezogen“ werden, falls das nicht der Fall ist.
 
@@ -37,7 +37,7 @@ Bei der Initialisierung kann es nicht schaden
 
 Diese Schalter befinden sich rechts unter dem „Notaus“:
 
-   <img src="Pictures/Power-Reset.webp" alt="Power-Reset" width="300"/>
+![Power-Reset](Pictures/Power-Reset.png){width=30%}
 
 <a name=readme:section:hauptuere-initialisieren></a>
 
@@ -47,7 +47,7 @@ Die Haupt-Türe muss am Anfang geöffnet und geschlossen werden
 
 Dazu muss man den „Zweihand-Taster“ betätigen und dann den Schiebeschalter für die Tür:
 
-   <img src="Pictures/Haupttuere-Schalter.webp" alt="Schalter Haupttüre" width="300"/>
+![Schalter Haupttüre](Pictures/Haupttuere-Schalter.png){width=30%}
 
 1.  nach links bewegen um die Tür zu öffnen und dann
 2.  nach rechts bewegen um die Tür zu schließen.
@@ -56,31 +56,31 @@ Dazu muss man den „Zweihand-Taster“ betätigen und dann den Schiebeschalter 
 
 Die Türe vom Werkzeuglader muss händisch geschlossen und geöffnet werden. Danach sollten die beiden gelben Schalter unter dem Werkzeuglader **nicht** mehr leuchten.
 
-<img src="Pictures/Werkzeuglader.webp" alt="Werkzeuglader" width="500"/>
+![Werkzeuglader](Pictures/Werkzeuglader.png){width=50%}
 
 ### Werkzeuglader Initialisieren
 
 Um den Werkzeuglader zu initialisieren sollte als erstes der Button <kbd>Wkz-Lader Reset</kbd> und dann <kbd>Wkz-Lader Start</kbd> gedrückt werden:
 
-<img src="Pictures/Bedientafel-Mitte-Wkz.webp" alt="Bedientafel Mitte Wkz-Buttons" width="300"/>
+![Bedientafel Mitte Wkz-Buttons](Pictures/Bedientafel-Mitte-Wkz.png){width=20%}
 
 ### Referenzpunkte setzen
 
-![Referenzpunkte](Pictures/Referenzpunkte.webp)
+![Referenzpunkte](Pictures/Referenzpunkte.png){width=50%}
 
 Zum Setzen der Referenzpunkte muss man die jeweilige Achse für den Punkt aktivieren und dann mittels Betätigung des Buttons <kbd>+</kbd> oder <kbd>-</kbd> zum nächsten Referenzpunkt fahren. In der unteren Beispiel-Grafik ist die Achse B1 aktiviert:
 
-<img src="Pictures/Bedientafel-Rechts-B1.webp" alt="Bedientafel Rechts B1" width="300"/>
+![Bedientafel Rechts B1](Pictures/Bedientafel-Rechts-B1.png){width=20%}
 
 Bei den doppelt belegten Tasten z.B. <kbd>Q1/X1</kbd> oder <kbd>Q2/Y1</kbd> sollte darauf geachtet werden, dass die Taste <kbd>C/Q</kbd> **nicht aktiviert ist** (Licht ausgeschalten). Ansonsten wird bei den erwähnten Beispiel-Tasten `Q1` beziehungsweise `Q2` aktiviert obwohl man eigentlich die Achse `X1` beziehungsweise `X2` auswählen wollte.
 
 **Beim Drücken der Tasten <kbd>+</kbd> oder <kbd>-</kbd> sollte beachtet werden, dass der Weg in die jeweilige Richtung frei ist!** Im Zweifelsfall sollte jeweils die Richtung, mittels <kbd>+</kbd>/<kbd>-</kbd> gewählt werden, bei dem mehr Platz zum Fahren frei ist. Die Orientierung der Achsen ist dabei auf dem Schlitten zu sehen:
 
-<img src="Pictures/Spindel-Y1.webp" alt="Spindel Y1" width="600"/>
+![Spindel Y1](Pictures/Spindel-Y1.png){width=40%}
 
 Im obigen Bild ist die Fahrt in Richtung Y1 praktisch nur mittels <kbd>-</kbd> möglich, da der Schlitten ansonsten in den Gummipuffer fährt.
 
-<img src="Pictures/Y1.webp" alt="Beschriftung Y1" width="600"/>
+![Beschriftung Y1](Pictures/Y1.png){width=40%}
 
 Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am Display angezeigt wird:
 
@@ -112,28 +112,28 @@ Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am
 - Die beiden gelben Leuchten unter der Werkzeuglader-Türe sollten nicht leuchten
 - Die Alarmliste sollte keine Meldungen enthalten:
 
-  <img src="Pictures/Alarmliste.webp" alt="Icon Alarmliste" width="600"/>
+  ![Icon Alarmliste](Pictures/Alarmliste.png){width=30%}
 
 ## Problembehandlung
 
 ### Spannfutter-Modus-Schalter Blinkt
 
-<img src="Pictures/Spannfutter-Modus-Schalter.webp" alt="Spannfutter-Modus-Schalter" width="500"/>
+![Spannfutter-Modus-Schalter](Pictures/Spannfutter-Modus-Schalter.png){width=20%}
 
 Auch wenn man kein Werkstück einspannen will (Schalterstellung 0) muss der Alarm trotzdem deaktiviert werden. Dazu kann man folgende Schritte der Reihe nach abarbeiten:
 
 1. [Haupt-Türe öffnen](#readme:section:hauptuere-initialisieren)
 2. Spannfutter-Modus-Schalter auf „Außen-Spannen“ stellen:
 
-   <img src="Pictures/Aussenspannen.webp" alt="Spannfutter-Modus-Schalter Modus Außen-Spannen" width="500"/>
+   ![Spannfutter-Modus-Schalter Modus Außen-Spannen](Pictures/Aussenspannen.png){width=20%}
 
 3. Fußschalter mit Spannfuttersymbol benützen um die Werkstückaufnahme ganz zu öffnen
 
-   <img src="Pictures/Spannfutter-Fußschalter.webp" alt="Spannfutter-Fußschalter" width="600"/>
+   ![Spannfutter-Fußschalter](Pictures/Spannfutter-Fußschalter.png){width=30%}
 
    Hierbei ist zu beachten, dass die zwei Schalter links und rechts eine **Doppelfunktion** besitzen. Während ein leichtes Drücken die Werkstückaufnahme öffnet oder schließt, sorgt ein fester Druck dafür, dass der „Notaus“ aktiviert wird. Sollte versehentlich der Notaus aktiviert worden sein, kann man diesen mittels der dunkelgrünen Schalter am vorderen Ende des Fußschalters deaktivieren:
 
-   <img src="Pictures/Spannfutter-Fußschalter-Notaus-Deaktivieren.webp" alt="Schalter am Spannfutter-Fußschalter um Notaus zu Deaktivieren" width="600"/>
+   ![Schalter am Spannfutter-Fußschalter um Notaus zu Deaktivieren](Pictures/Spannfutter-Fußschalter-Notaus-Deaktivieren.png){width=30%}
 
 4. Spannfutter-Modus-Schalter auf „0“ stellen
 
@@ -143,21 +143,21 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
 1. Einen leeren Platz im Magazin suchen; Die Werkzeug-Nummer ist am Rand des Trommel-Magazins zu sehen
 
-   <img src="Pictures/Werkzeugnummern.webp" alt="Werkzeugnummern Trommelmagazin" width="600"/>
+   ![Werkzeugnummern Trommelmagazin](Pictures/Werkzeugnummern.png){width=40%}
 
 2. Um das Magazin zu drehen kann man den unten gezeigten Schalter verwenden:
 
-   <img src="Pictures/Drehschalter-Trommelmagazin.webp" alt="Drehschalter vom Trommelmagazin" width="600"/>
+   ![Drehschalter vom Trommelmagazin](Pictures/Drehschalter-Trommelmagazin.png){width=40%}
 
 3. In der Magazinliste:
 
-   <img src="Pictures/Werkzeugliste.webp" alt="Liste der verwalteten Werkzeuge" width="600"/>
+   ![Liste der verwalteten Werkzeuge](Pictures/Werkzeugliste.png){width=30%}
 
-   <img src="Pictures/Trommelmagazin.webp" alt="Trommelmagazin" width="600"/>
+   ![Trommelmagazin](Pictures/Trommelmagazin.png){width=30%}
 
    auf den freien Eintrag für die Werkzeugnummer klicken:
 
-   <img src="Pictures/Werkzeugliste-Freier-Eintrag.webp" alt="Freier Eintrag von Werkzeugliste" width="600"/>
+   ![Freier Eintrag von Werkzeugliste](Pictures/Werkzeugliste-Freier-Eintrag.png){width=40%}
 
    und den Button <kbd>Aufrüsten</kbd> drücken um ein neues Werkzeug einzurichten oder um Eines aus dem Archiv zu importieren.
 
@@ -173,7 +173,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
    Die Eingabe sollte man dann mittels des <kbd>Input</kbd>-Buttons bestätigen
 
-   <img src="Pictures/Input.webp" alt="Input Button" width="500"/>
+   ![Input Button](Pictures/Input.png){width=40%}
 
    Danach noch **Ohne Geometrie** (kein Crash-Schutz!) auswählen
 
@@ -183,13 +183,13 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
    Zum Entfernen beziehungsweise Spannen des Stifts der das Werkzeug festhält bitte folgenden Button drücken:
 
-   <img src="Pictures/Button-Stift-Magazin.webp" alt="Button für Stift des Trommelmagazins" width="600"/>
+   ![Button für Stift des Trommelmagazins](Pictures/Button-Stift-Magazin.png){width=50%}
 
    Beim Einspannen ist darauf zu achten, dass absolut **kein Spalt** entsteht.
 
-   <img src="Pictures/Werkzeugmagazin-Spalt.webp" alt="Spalt beim Eingespannten Werkzeug" width="600"/>
+   ![Spalt beim Eingespannten Werkzeug](Pictures/Werkzeugmagazin-Spalt.png){width=40%}
 
-   <img src="Pictures/Werkzeugmagazin-Kein-Spalt.webp" alt="Spalt beim Eingespannten Werkzeug" width="600"/>
+   ![Spalt beim Eingespannten Werkzeug](Pictures/Werkzeugmagazin-Kein-Spalt.png){width=40%}
 
 8. Die Magazintür schließen
 
@@ -197,7 +197,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
 1. Auf das Programm-Icon klicken:
 
-   <img src="Pictures/Programme.webp" alt="Programme" width="600"/>
+   ![Programme](Pictures/Programme.png){width=20%}
 
 2. [Programm](Source/SMART_TOOL_TEST1.MPF) wählen:
 
@@ -220,19 +220,19 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 3. Sicherheitshalber die erste Zeile des Programms markieren, damit Programmausführung nicht mitten im Programmcode startet
 4. Den Button <kbd>G00</kbd> aktivieren:
 
-   <img src="Pictures/G00.webp" alt="Button G00" width="600"/>
+   ![Button G00](Pictures/G00.png){width=30%}
 
    damit sich die Ausführung des Programms verlangsamt.
 
 5. Darauf achten, dass der Vorschub (auf einem geringem Level) aktiviert ist:
 
-   <img src="Pictures/Vorschub.webp" alt="Einstellung für Vorschub" width="600"/>
+   ![Einstellung für Vorschub](Pictures/Vorschub.png){width=40%}
 
    Der Drehschalter sollte bei der Programmausführung immer im Auge behalten werden, damit die aktuelle Programmausführung – mittels Vorschub 0 – schnell abgebrochen werden kann.
 
 6. Den Button <kbd>CYCLE START</kbd> drücken:
 
-   <img src="Pictures/Cycle-Start.webp" alt="Button CYCLE START" width="600"/>
+   ![Button CYCLE START](Pictures/Cycle-Start.png){width=30%}
 
    um die Programmausführung zu beginnen
 
