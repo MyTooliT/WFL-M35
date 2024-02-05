@@ -20,7 +20,7 @@
    winget install 'GnuWin32.Make'
    ```
 
-3. You probably need the following directories to your Path environment (user) variable (for R version `4.3.2` and RStudio `2023.12.1`)
+3. You probably need to add the following directories to your Path environment (user) variable (for R version `4.3.2` and RStudio `2023.12.1`)
 
    - `C:\Program Files\R\R-4.3.2\bin`
    - `C:\Program Files (x86)\GnuWin32\bin`
