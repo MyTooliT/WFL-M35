@@ -33,7 +33,7 @@ jobs:
       - name: Upload documentation
         uses: actions/upload-artifact@v3
         with:
-          name: ICOc Manual
+          name: WFL-M35
           path: Bookdown
 
   deploy-pages:
@@ -45,7 +45,7 @@ jobs:
       - name: Download bookdown documentation
         uses: actions/download-artifact@v3
         with:
-          name: ICOc Manual
+          name: WFL-M35
           path: Bookdown
 
       - name: Deploy
