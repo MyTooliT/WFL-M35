@@ -1,3 +1,17 @@
+---
+title: Einführung WFL M35
+header-includes:
+  - | # https://stackoverflow.com/questions/16626462
+    \usepackage{float}[H]
+    \let\origfigure\figure
+    \let\endorigfigure\endfigure
+    \renewenvironment{figure}[1][2] {
+        \expandafter\origfigure\expandafter[H]
+    } {
+        \endorigfigure
+    }
+---
+
 # Einführung WFL M35
 
 Die folgenden Beschreibung zeigt oberflächlich die grundsätzliche Bedienung der CNC-Maschine WFL M35 im [TEC-Lab](http://www.ift.at/das-institut/standorte/).
