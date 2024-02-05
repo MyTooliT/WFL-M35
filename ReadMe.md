@@ -26,7 +26,7 @@ Die folgenden Beschreibung zeigt oberflächlich die grundsätzliche Bedienung de
 
 Der Hauptschalter befindet sich auf der Rückseite der Maschine:
 
-![Hauptschalter](Pictures/Hauptschalter.png){height=40%}
+![Hauptschalter](Pictures/Hauptschalter.jpg){height=40%}
 
 ### Startup Abwarten
 
@@ -38,7 +38,7 @@ Dieser Vorgang dauert üblicherweise ein paar Minuten. Im Bedien-Terminal sollte
 
 Darauf achten, dass der „Notaus“-Schalter deaktiviert ist
 
-![Notaus](Pictures/Notaus.png){width=30%}
+![Notaus](Pictures/Notaus.jpg){width=30%}
 
 Der Schalter sollte „heraus-gedreht“/„gezogen“ werden, falls das nicht der Fall ist.
 
@@ -51,7 +51,7 @@ Bei der Initialisierung kann es nicht schaden
 
 Diese Schalter befinden sich rechts unter dem „Notaus“:
 
-![Power-Reset](Pictures/Power-Reset.png){width=30%}
+![Power-Reset](Pictures/Power-Reset.jpg){width=30%}
 
 ### Haupttüre Initialisieren {#hauptuere-initialisieren}
 
@@ -59,7 +59,7 @@ Die Haupt-Türe muss am Anfang geöffnet und geschlossen werden
 
 Dazu muss man den „Zweihand-Taster“ betätigen und dann den Schiebeschalter für die Tür:
 
-![Schalter Haupttüre](Pictures/Haupttuere-Schalter.png){width=30%}
+![Schalter Haupttüre](Pictures/Haupttuere-Schalter.jpg){width=30%}
 
 1.  nach links bewegen um die Tür zu öffnen und dann
 2.  nach rechts bewegen um die Tür zu schließen.
@@ -68,31 +68,31 @@ Dazu muss man den „Zweihand-Taster“ betätigen und dann den Schiebeschalter 
 
 Die Türe vom Werkzeuglader muss händisch geschlossen und geöffnet werden. Danach sollten die beiden gelben Schalter unter dem Werkzeuglader **nicht** mehr leuchten.
 
-![Werkzeuglader](Pictures/Werkzeuglader.png){width=50%}
+![Werkzeuglader](Pictures/Werkzeuglader.jpg){width=50%}
 
 ### Werkzeuglader Initialisieren
 
 Um den Werkzeuglader zu initialisieren sollte als erstes der Button <kbd>Wkz-Lader Reset</kbd> und dann <kbd>Wkz-Lader Start</kbd> gedrückt werden:
 
-![Bedientafel Mitte Wkz-Buttons](Pictures/Bedientafel-Mitte-Wkz.png){width=20%}
+![Bedientafel Mitte Wkz-Buttons](Pictures/Bedientafel-Mitte-Wkz.jpg){width=20%}
 
 ### Referenzpunkte setzen
 
-![Referenzpunkte](Pictures/Referenzpunkte.png){width=50%}
+![Referenzpunkte](Pictures/Referenzpunkte.jpg){width=50%}
 
 Zum Setzen der Referenzpunkte muss man die jeweilige Achse für den Punkt aktivieren und dann mittels Betätigung des Buttons <kbd>+</kbd> oder <kbd>-</kbd> zum nächsten Referenzpunkt fahren. In der unteren Beispiel-Grafik ist die Achse B1 aktiviert:
 
-![Bedientafel Rechts B1](Pictures/Bedientafel-Rechts-B1.png){width=20%}
+![Bedientafel Rechts B1](Pictures/Bedientafel-Rechts-B1.jpg){width=20%}
 
 Bei den doppelt belegten Tasten z.B. <kbd>Q1/X1</kbd> oder <kbd>Q2/Y1</kbd> sollte darauf geachtet werden, dass die Taste <kbd>C/Q</kbd> **nicht aktiviert ist** (Licht ausgeschalten). Ansonsten wird bei den erwähnten Beispiel-Tasten `Q1` beziehungsweise `Q2` aktiviert obwohl man eigentlich die Achse `X1` beziehungsweise `X2` auswählen wollte.
 
 **Beim Drücken der Tasten <kbd>+</kbd> oder <kbd>-</kbd> sollte beachtet werden, dass der Weg in die jeweilige Richtung frei ist!** Im Zweifelsfall sollte jeweils die Richtung, mittels <kbd>+</kbd>/<kbd>-</kbd> gewählt werden, bei dem mehr Platz zum Fahren frei ist. Die Orientierung der Achsen ist dabei auf dem Schlitten zu sehen:
 
-![Spindel Y1](Pictures/Spindel-Y1.png){width=40%}
+![Spindel Y1](Pictures/Spindel-Y1.jpg){width=40%}
 
 Im obigen Bild ist die Fahrt in Richtung Y1 praktisch nur mittels <kbd>-</kbd> möglich, da der Schlitten ansonsten in den Gummipuffer fährt.
 
-![Beschriftung Y1](Pictures/Y1.png){width=40%}
+![Beschriftung Y1](Pictures/Y1.jpg){width=40%}
 
 Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am Display angezeigt wird:
 
@@ -124,28 +124,28 @@ Die Referenzpunkte kann man beispielsweise in der Reihenfolge anfahren die am am
 - Die beiden gelben Leuchten unter der Werkzeuglader-Türe sollten nicht leuchten
 - Die Alarmliste sollte keine Meldungen enthalten:
 
-  ![Icon Alarmliste](Pictures/Alarmliste.png){width=30%}
+  ![Icon Alarmliste](Pictures/Alarmliste.jpg){width=30%}
 
 ## Problembehandlung
 
 ### Spannfutter-Modus-Schalter Blinkt
 
-![Spannfutter-Modus-Schalter](Pictures/Spannfutter-Modus-Schalter.png){width=20%}
+![Spannfutter-Modus-Schalter](Pictures/Spannfutter-Modus-Schalter.jpg){width=20%}
 
 Auch wenn man kein Werkstück einspannen will (Schalterstellung 0) muss der Alarm trotzdem deaktiviert werden. Dazu kann man folgende Schritte der Reihe nach abarbeiten:
 
 1. [Haupt-Türe öffnen](#hauptuere-initialisieren)
 2. Spannfutter-Modus-Schalter auf „Außen-Spannen“ stellen:
 
-   ![Spannfutter-Modus-Schalter Modus Außen-Spannen](Pictures/Aussenspannen.png){width=20%}
+   ![Spannfutter-Modus-Schalter Modus Außen-Spannen](Pictures/Aussenspannen.jpg){width=20%}
 
 3. Fußschalter mit Spannfuttersymbol benützen um die Werkstückaufnahme ganz zu öffnen
 
-   ![Spannfutter-Fußschalter](Pictures/Spannfutter-Fußschalter.png){width=30%}
+   ![Spannfutter-Fußschalter](Pictures/Spannfutter-Fußschalter.jpg){width=30%}
 
    Hierbei ist zu beachten, dass die zwei Schalter links und rechts eine **Doppelfunktion** besitzen. Während ein leichtes Drücken die Werkstückaufnahme öffnet oder schließt, sorgt ein fester Druck dafür, dass der „Notaus“ aktiviert wird. Sollte versehentlich der Notaus aktiviert worden sein, kann man diesen mittels der dunkelgrünen Schalter am vorderen Ende des Fußschalters deaktivieren:
 
-   ![Schalter am Spannfutter-Fußschalter um Notaus zu Deaktivieren](Pictures/Spannfutter-Fußschalter-Notaus-Deaktivieren.png){width=30%}
+   ![Schalter am Spannfutter-Fußschalter um Notaus zu Deaktivieren](Pictures/Spannfutter-Fußschalter-Notaus-Deaktivieren.jpg){width=30%}
 
 4. Spannfutter-Modus-Schalter auf „0“ stellen
 
@@ -155,21 +155,21 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
 1. Einen leeren Platz im Magazin suchen; Die Werkzeug-Nummer ist am Rand des Trommel-Magazins zu sehen
 
-   ![Werkzeugnummern Trommelmagazin](Pictures/Werkzeugnummern.png){width=40%}
+   ![Werkzeugnummern Trommelmagazin](Pictures/Werkzeugnummern.jpg){width=40%}
 
 2. Um das Magazin zu drehen kann man den unten gezeigten Schalter verwenden:
 
-   ![Drehschalter vom Trommelmagazin](Pictures/Drehschalter-Trommelmagazin.png){width=40%}
+   ![Drehschalter vom Trommelmagazin](Pictures/Drehschalter-Trommelmagazin.jpg){width=40%}
 
 3. In der Magazinliste:
 
-   ![Liste der verwalteten Werkzeuge](Pictures/Werkzeugliste.png){width=30%}
+   ![Liste der verwalteten Werkzeuge](Pictures/Werkzeugliste.jpg){width=30%}
 
-   ![Trommelmagazin](Pictures/Trommelmagazin.png){width=30%}
+   ![Trommelmagazin](Pictures/Trommelmagazin.jpg){width=30%}
 
    auf den freien Eintrag für die Werkzeugnummer klicken:
 
-   ![Freier Eintrag von Werkzeugliste](Pictures/Werkzeugliste-Freier-Eintrag.png){width=40%}
+   ![Freier Eintrag von Werkzeugliste](Pictures/Werkzeugliste-Freier-Eintrag.jpg){width=40%}
 
    und den Button <kbd>Aufrüsten</kbd> drücken um ein neues Werkzeug einzurichten oder um Eines aus dem Archiv zu importieren.
 
@@ -185,7 +185,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
    Die Eingabe sollte man dann mittels des <kbd>Input</kbd>-Buttons bestätigen
 
-   ![Input Button](Pictures/Input.png){width=40%}
+   ![Input Button](Pictures/Input.jpg){width=40%}
 
    Danach noch **Ohne Geometrie** (kein Crash-Schutz!) auswählen
 
@@ -195,13 +195,13 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
    Zum Entfernen beziehungsweise Spannen des Stifts der das Werkzeug festhält bitte folgenden Button drücken:
 
-   ![Button für Stift des Trommelmagazins](Pictures/Button-Stift-Magazin.png){width=50%}
+   ![Button für Stift des Trommelmagazins](Pictures/Button-Stift-Magazin.jpg){width=50%}
 
    Beim Einspannen ist darauf zu achten, dass absolut **kein Spalt** entsteht.
 
-   ![Spalt beim Eingespannten Werkzeug](Pictures/Werkzeugmagazin-Spalt.png){width=40%}
+   ![Spalt beim Eingespannten Werkzeug](Pictures/Werkzeugmagazin-Spalt.jpg){width=40%}
 
-   ![Spalt beim Eingespannten Werkzeug](Pictures/Werkzeugmagazin-Kein-Spalt.png){width=40%}
+   ![Spalt beim Eingespannten Werkzeug](Pictures/Werkzeugmagazin-Kein-Spalt.jpg){width=40%}
 
 8. Die Magazintür schließen
 
@@ -209,7 +209,7 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 
 1. Auf das Programm-Icon klicken:
 
-   ![Programme](Pictures/Programme.png){width=20%}
+   ![Programme](Pictures/Programme.jpg){width=20%}
 
 2. [Programm](Source/SMART_TOOL_TEST1.MPF) wählen:
 
@@ -232,19 +232,19 @@ Um ein Werkzeug (wie z.B. eine STH) „aufzurüsten“ (ins Magazin zu geben) ka
 3. Sicherheitshalber die erste Zeile des Programms markieren, damit Programmausführung nicht mitten im Programmcode startet
 4. Den Button <kbd>G00</kbd> aktivieren:
 
-   ![Button G00](Pictures/G00.png){width=30%}
+   ![Button G00](Pictures/G00.jpg){width=30%}
 
    damit sich die Ausführung des Programms verlangsamt.
 
 5. Darauf achten, dass der Vorschub (auf einem geringem Level) aktiviert ist:
 
-   ![Einstellung für Vorschub](Pictures/Vorschub.png){width=40%}
+   ![Einstellung für Vorschub](Pictures/Vorschub.jpg){width=40%}
 
    Der Drehschalter sollte bei der Programmausführung immer im Auge behalten werden, damit die aktuelle Programmausführung – mittels Vorschub 0 – schnell abgebrochen werden kann.
 
 6. Den Button <kbd>CYCLE START</kbd> drücken:
 
-   ![Button CYCLE START](Pictures/Cycle-Start.png){width=30%}
+   ![Button CYCLE START](Pictures/Cycle-Start.jpg){width=30%}
 
    um die Programmausführung zu beginnen
 
