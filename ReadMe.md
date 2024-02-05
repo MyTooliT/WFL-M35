@@ -26,7 +26,7 @@ Die folgenden Beschreibung zeigt oberflächlich die grundsätzliche Bedienung de
 
 Der Hauptschalter befindet sich auf der Rückseite der Maschine:
 
-![Hauptschalter](Pictures/Hauptschalter.png){width=30%}
+![Hauptschalter](Pictures/Hauptschalter.png){height=40%}
 
 ### Startup Abwarten
 
